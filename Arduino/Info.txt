@@ -1,0 +1,1 @@
+sklenik.ino je program pre cely sklenik - moja cast je len getData() a postData()

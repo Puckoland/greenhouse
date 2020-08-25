@@ -1,0 +1,60 @@
+//pamata si pri vypojeni
+AT
+AT+GMR
+AT+RST
+AT+CWLAP
+AT+CWJAP="SSID","PASSWORD"
+AT+CIFSR
+AT+CWMODE=3
+
+AT+CIPMUX=1
+AT+CIPSERVER=1,80
+AT+CIPSEND=0,<numOfChars(BYTES)>
+AT+CIPCLOSE=0
+
+AT+CIPSEND=0,32
+<h1>Hello World</h1><p>Hello</p>
+{Temperature:28}
+
+AT+CIPSTART="TCP","espgreenhouse.000webhostapp.com",80
+TCP connection ready
+AT+CIPSEND=168
+--Packet---
+POST /esppost.php
+Host: espgreenhouse.000webhostapp.com
+Accept: */*
+Content-Length: 26
+Content-Type: application/x-www-form-urlencoded
+
+temperature=50&humidity=30
+------
+
+
+--------------------------AT--------------------------------------
+MEGA---------ESP
+3.3V---------VCC
+3.3V---------CHPD
+GND-----------GND
+TX0-----------TX
+RX0-----------RX
+1. Upload Blank Sketch
+2. Unplug and Plug USB
+3. Open Serial (115200, Both)
+----------------------------V2----------------------------------
+MEGA---------ESP
+3.3V---------VCC
+3.3V---------CHPD
+GND-----------GND
+11-----------TX
+12-----------RX
+1. Upload Sketch
+2. Open Serial (9600, Both)
+
+-------------------------------------------------------------------
+Sending..
+Packet sent
+
+
++IPD,170:>html>
+<heab><title?400 Bad Reqtest>/title></heXj
+<body e0q/e

@@ -1,0 +1,7 @@
+Upload rychlo po zapojeni ESP
+
+wifi.ino
+Flash memory GPIO0 --> GND
+
+esptoarduino.ino
+No flash GPIO0 --> X

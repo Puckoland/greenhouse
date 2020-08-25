@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Greenhouse</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="title_activity_show">Show Values</string>
+    <string name="title_activity_set">Set Values</string>
+    <string name="error_message">
+        An error has occurred. Please try again by clicking REFRESH
+    </string>
+
+    <string name="iconFreepik">Icon made by Freepik from www.flaticon.com</string>
+    <string name="iconEpicCoders">Icon made by EpicCoders from www.flaticon.com</string>
+    <string name="iconGoodWare">Icon made by Good Ware from www.flaticon.com</string>
+    <string name="iconGregorCresnar">Icon made by Gregor Cresnar from www.flaticon.com</string>
+    <string name="iconKiranshastry">Icon made by Kiranshastry from www.flaticon.com</string>
+    <string name="iconCreaticcaCreativeAgency">
+        Icon made by Creaticca Creative Agency from www.flaticon.com
+    </string>
+    <string name="iconSmashicons">Icon made by Smashicons from www.flaticon.com</string>
+
+    <string name="ipsum">Lorem Ipsum imagine</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="max">MAX</string>
+    <string name="min">MIN</string>
+    <string name="time">Time</string>
+    <string name="date">Date</string>
+    <string name="sun">Man-Made Sun</string>
+    <string name="windows">Windows</string>
+    <string name="watering">Watering</string>
+
+    <string name="tooltip_temperature_max">Temperature when windows should open</string>
+    <string name="tooltip_temperature_min">Temperature when heating should start</string>
+    <string name="tooltip_humidity_min">Soil moisture when watering should start</string>
+    <string name="tooltip_time">Time set in Greenhouse</string>
+    <string name="tooltip_date">Date set in Greenhouse</string>
+    <string name="tooltip_sun">Power on/off man-made sun</string>
+    <string name="tooltip_windows">Open/close windows</string>
+    <string name="tooltip_watering">Start/stop watering</string>
+    <string name="tooltip_send">Send Data</string>
+
+    <string name="temperature_holder">%1$d °C</string>
+    <string name="humidity_holder">%1$d\%%</string>
+    <string name="time_holder">%1$d:%2$d</string>
+    <string name="date_holder">%1$d.%2$d.%3$d</string>
+    <string name="title_activity_preferences">PreferencesActivity</string>
+</resources>
